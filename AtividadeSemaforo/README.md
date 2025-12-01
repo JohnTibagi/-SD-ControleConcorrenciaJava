@@ -34,3 +34,7 @@ public class SynchronizedLinkedList {
 * Executar os dois programas gerando uma log, se executado mais de uma vez não pode sobrescrever;
 * Realize o Commit de todos os arquivos para o seu  reportório SD-ControleConcorrenciaJava  juntamente com os prints de todas as execuções;
 * Realizar as analises de comparação do código do programa Carro.java e CarroLock.java e incluir o texto da análise no README.md do seu repositório D-ControleConcorrenciaJava. 
+
+
+# ANÁLISE DA ATIVIDADE
+Analisando o log do códiog Carro.java podemos perceber que o resultado é caótico e aleatório. Já se formos analisar o log do código CarroLock.java, fica claro que a saída é mais organizada por conta do uso do Lock no código, um mecanismo de sincronização binário.
